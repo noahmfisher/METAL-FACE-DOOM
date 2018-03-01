@@ -97,20 +97,388 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    * {
+      font-family: 'Krona One', sans-serif;
+      overflow-x: hidden;
+    }
 
+    body {
+      background-color: #f7b476;
+      scroll-snap-points-x: repeat(100%);
+      scroll-snap-type: mandatory;
+      scroll-snap-destination: 50% 50%;
+    }
 
+    /* .fullscreen-bg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      transition: ease 1.5s;
+    }
 
+    .fullscreen-bg__video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: auto;
+      opacity:0;
+      transition: ease 1.5s;
+    } */
 
+    .rhyme {
+      color: white;
+      transition: 300ms;
+    }
 
+    .rhyme:hover {
+      color:aqua;
+    }
 
+   .svg {
+     width:10%;
+     position:absolute;
+     padding: .5em;
+     display:block;
+   }
 
+   .arm {
+      position:absolute;
+      bottom:-740%;
+      left:42%;
+      width:20%;
+      transition: ease 1.5s;
+      animation-name: armDrop;
+      animation-iteration-count: infinite;
+   }
 
+  h1, h2 {
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    opacity: .75;
+  }
 
+  .record {
+    position:absolute;
+    bottom:-785%;
+    left:40%;
+    width:20%;
+   }
 
+   .l1 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
+   .l2 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height: 100%;
+    top:100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
+   .l3 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:200%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
+   .l4 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:300%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
+   .l5 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:400%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l6 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:500%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l7 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:600%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l8 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:700%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l9 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:800%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l10 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:900%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l11 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:1000%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l12 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:1100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l13 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:1200%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .l14 {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:100%;
+    top:1300%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #l1 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l2 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l3 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l4 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l5 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l6 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l7 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l8 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l9 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l10 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l11 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l12 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l13 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+   }
+
+   #l14 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    z-index: 10;
+    transition: ease 1.5s;
+    color:white;
+    text-shadow: 2px 2px 0px black;
+   }
+
+   #mask {
+     transform: translateX(-12.5em) translateY(-.5em);
+   }
+
+   .villain {
+     color:white;
+     opacity:.75;
+     text-shadow: 2px 2px 0px black;
+   }
+
+   .sceneSvg {
+     /* z-index: -1000; */
+   }
+
+   .cashSvg {
+     animation: .75s;
+     animation-name: cashSvgAnim;
+     animation-direction: normal;
+     animation-iteration-count: infinite;
+   }
+
+   @keyframes cashSvgAnim {
+     from {
+       transform: translateX(0);
+     }
+     to {
+       transform: translateX(100%);
+     }
+   }
 
 
 /* ==========================================================================
