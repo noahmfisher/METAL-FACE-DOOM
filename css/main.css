@@ -100,13 +100,13 @@ textarea {
     * {
       font-family: 'Krona One', sans-serif;
       overflow-x: hidden;
+      scroll-snap-points-x: repeat(100%);
+      scroll-snap-type: mandatory;
+      scroll-snap-destination: 50% 50%;
     }
 
     body {
       background-color: #f7b476;
-      scroll-snap-points-x: repeat(100%);
-      scroll-snap-type: mandatory;
-      scroll-snap-destination: 50% 50%;
     }
 
     /* .fullscreen-bg {
